@@ -1,0 +1,110 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'Show_Result_APEU.ui'
+#
+# Created by: PyQt5 UI code generator 5.10.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_Show_Result_APEU(object):
+    def setupUi(self, Show_Result_APEU):
+        Show_Result_APEU.setObjectName("Show_Result_APEU")
+        Show_Result_APEU.resize(1285, 747)
+        Show_Result_APEU.setToolTipDuration(1)
+        self.centralwidget = QtWidgets.QWidget(Show_Result_APEU)
+        self.centralwidget.setObjectName("centralwidget")
+        self.label_will_sent_to = QtWidgets.QLabel(self.centralwidget)
+        self.label_will_sent_to.setGeometry(QtCore.QRect(9, 9, 126, 16))
+        self.label_will_sent_to.setObjectName("label_will_sent_to")
+        self.label_command_view = QtWidgets.QLabel(self.centralwidget)
+        self.label_command_view.setGeometry(QtCore.QRect(320, 10, 110, 16))
+        self.label_command_view.setObjectName("label_command_view")
+        self.textEdit_command = QtWidgets.QTextEdit(self.centralwidget)
+        self.textEdit_command.setGeometry(QtCore.QRect(9, 28, 1267, 51))
+        self.textEdit_command.setObjectName("textEdit_command")
+        self.pushButton_Close = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_Close.setGeometry(QtCore.QRect(1070, 90, 131, 31))
+        self.pushButton_Close.setObjectName("pushButton_Close")
+        self.pushButton_SendCommand = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_SendCommand.setGeometry(QtCore.QRect(290, 90, 131, 31))
+        self.pushButton_SendCommand.setObjectName("pushButton_SendCommand")
+        self.groupBox_DSC1 = QtWidgets.QGroupBox(self.centralwidget)
+        self.groupBox_DSC1.setGeometry(QtCore.QRect(9, 127, 631, 581))
+        self.groupBox_DSC1.setObjectName("groupBox_DSC1")
+        self.gridLayout = QtWidgets.QGridLayout(self.groupBox_DSC1)
+        self.gridLayout.setObjectName("gridLayout")
+        self.textEdit_Server1 = QtWidgets.QTextEdit(self.groupBox_DSC1)
+        self.textEdit_Server1.setObjectName("textEdit_Server1")
+        self.gridLayout.addWidget(self.textEdit_Server1, 0, 0, 1, 1)
+        self.textEdit_Server3 = QtWidgets.QTextEdit(self.groupBox_DSC1)
+        self.textEdit_Server3.setObjectName("textEdit_Server3")
+        self.gridLayout.addWidget(self.textEdit_Server3, 1, 0, 1, 1)
+        self.textEdit_Server5 = QtWidgets.QTextEdit(self.groupBox_DSC1)
+        self.textEdit_Server5.setObjectName("textEdit_Server5")
+        self.gridLayout.addWidget(self.textEdit_Server5, 2, 0, 1, 1)
+        self.groupBox_DSC2 = QtWidgets.QGroupBox(self.centralwidget)
+        self.groupBox_DSC2.setGeometry(QtCore.QRect(646, 127, 630, 581))
+        self.groupBox_DSC2.setObjectName("groupBox_DSC2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.groupBox_DSC2)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.textEdit_Server2 = QtWidgets.QTextEdit(self.groupBox_DSC2)
+        self.textEdit_Server2.setObjectName("textEdit_Server2")
+        self.gridLayout_2.addWidget(self.textEdit_Server2, 0, 0, 1, 1)
+        self.textEdit_Server4 = QtWidgets.QTextEdit(self.groupBox_DSC2)
+        self.textEdit_Server4.setObjectName("textEdit_Server4")
+        self.gridLayout_2.addWidget(self.textEdit_Server4, 1, 0, 1, 1)
+        self.textEdit_Server6 = QtWidgets.QTextEdit(self.groupBox_DSC2)
+        self.textEdit_Server6.setObjectName("textEdit_Server6")
+        self.gridLayout_2.addWidget(self.textEdit_Server6, 2, 0, 1, 1)
+        self.label_server = QtWidgets.QLabel(self.centralwidget)
+        self.label_server.setGeometry(QtCore.QRect(140, 10, 101, 16))
+        self.label_server.setText("")
+        self.label_server.setObjectName("label_server")
+        self.pushButton_ClearOutput = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_ClearOutput.setGeometry(QtCore.QRect(870, 90, 131, 31))
+        self.pushButton_ClearOutput.setObjectName("pushButton_ClearOutput")
+        self.label_caution = QtWidgets.QLabel(self.centralwidget)
+        self.label_caution.setGeometry(QtCore.QRect(20, 90, 261, 16))
+        self.label_caution.setText("")
+        self.label_caution.setObjectName("label_caution")
+        self.label_status = QtWidgets.QLabel(self.centralwidget)
+        self.label_status.setGeometry(QtCore.QRect(60, 110, 171, 20))
+        self.label_status.setText("")
+        self.label_status.setObjectName("label_status")
+        self.pushButton_CopyOutput = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_CopyOutput.setGeometry(QtCore.QRect(670, 90, 131, 31))
+        self.pushButton_CopyOutput.setObjectName("pushButton_CopyOutput")
+        self.pushButton_StopCommand = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_StopCommand.setGeometry(QtCore.QRect(480, 90, 131, 31))
+        self.pushButton_StopCommand.setObjectName("pushButton_StopCommand")
+        Show_Result_APEU.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(Show_Result_APEU)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1285, 21))
+        self.menubar.setObjectName("menubar")
+        Show_Result_APEU.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(Show_Result_APEU)
+        self.statusbar.setObjectName("statusbar")
+        Show_Result_APEU.setStatusBar(self.statusbar)
+
+        self.retranslateUi(Show_Result_APEU)
+        QtCore.QMetaObject.connectSlotsByName(Show_Result_APEU)
+
+    def retranslateUi(self, Show_Result_APEU):
+        _translate = QtCore.QCoreApplication.translate
+        self.label_will_sent_to.setText(_translate("Show_Result_APEU", "Command will be sent to : "))
+        self.label_command_view.setText(_translate("Show_Result_APEU", "Command as following:"))
+        self.pushButton_Close.setText(_translate("Show_Result_APEU", "Close Window"))
+        self.pushButton_SendCommand.setText(_translate("Show_Result_APEU", "Send Command"))
+        self.groupBox_DSC1.setTitle(_translate("Show_Result_APEU", " DSC"))
+        self.textEdit_Server5.setHtml(_translate("Show_Result_APEU", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
+        self.groupBox_DSC2.setTitle(_translate("Show_Result_APEU", "DSC"))
+        self.pushButton_ClearOutput.setText(_translate("Show_Result_APEU", "Clear Output"))
+        self.pushButton_CopyOutput.setText(_translate("Show_Result_APEU", "Copy All"))
+        self.pushButton_StopCommand.setText(_translate("Show_Result_APEU", "Stop Command"))
+

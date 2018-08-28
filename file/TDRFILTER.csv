@@ -1,0 +1,61 @@
+Mark,Index,Name,Format
+,1,Log Date,|Log Date:%-10s
+,2,Log Time,|Log Time:%-12s
+1,3,Start Date,|Start Date:%-10s
+1,4,Start Time,|Start Time:%-12s
+,5,Request Fwd Date,|Request Fwd Date:%-10s
+,6,Request Fwd Time,|Request Fwd Time:%-12s
+,7,Request Dequeue Date,|Request Dequeue Date:%-10s
+,8,Request Dequeue Time,|Request Dequeue Time:%-12s
+,9,Request Send Date,|Request Send Date:%-10s
+1,10,Request Send Time,|Request Send Time:%-12s
+,11,Answer Rcv Date,|Answer Rcv Date:%-10s
+,12,Answer Rcv Time,|Answer Rcv Time:%-12s
+,13,Answer Dequeue Date,|Answer Dequeue Date:%-10s
+,14,Answer Dequeue Time,|Answer Dequeue Time:%-12s
+,15,Answer Send Date,|Answer Send Date:%-10s
+1,16,Answer Send Time,|Answer Send Time:%-12s
+,17,Sender-Prot.,|Sender-Prot:%-4s
+,18,Sender-Host,|Sender-Host:%-35s
+1,19,Sender-Realm,|Sender-Realm:%-35s
+,20,Request Source Edge Proxy IP,|Req Src Edge Proxy IP:%-15s
+,21,Request Dest Edge Proxy IP,|Req Dst Edge Proxy IP:%-15s
+,22,Resent,|Resent:%-1s
+,23,Session Id,|Session Id:%-90s
+,24,Appl Id,|Appl Id:%-8s
+1,25,CmdCode,|CMDCode:%-3s
+,26,Req-Origin-Host,|Req-O-Host:%-30s
+,27,Req-Origin-Realm,|Req-O-Realm:%-30s
+1,28,Req-Origin-Operator,|Req-O-OP:%-30s
+,29,Req-Dest-Host,|Req-D-Host:%-30s
+,30,Req-Dest-Realm,|Req-D-Realm:%-30s
+1,31,Req-Dest-Operator,|Req-D-OP:%-30s
+,32,Req-Flag,|Req-Flag:%-2s
+,33,Req-EtE-Id,|Req-EtE-Id:%-8s
+,34,Req-HbH-Id,|Req-HbH-Id:%-8s
+,35,Req-Payload,|Req-Payload:%-3s
+1,36,IMSI,|IMSI:%-15s
+,37,MSISDN,|MSISDN:%-15s
+,38,VPLMN ID,|VPLMN ID:%-5s
+1,39,ReqRulesHit,|ReqRulesHit:%-30s
+,40,Local Action,|Local Action:%-5s
+,41,Fw-EtE-Id,|Fw-EtE-Id:%-8s
+,42,Fw-HbH-Id,|Fw-HbH-Id:%-8s
+,43,Receiver-Prot.,|Receiver-Prot:%-4s
+,44,Reroute,|reroute:%-1s
+,45,First-Attempt-Receiver-Host,|First-Attempt-R-Host:%-30s
+1,46,Actual-Receiver-Host,|Actual-Receiver-Host:%-30s
+,47,Fw-Req-Payload,|Fw-Req-Payload:%-4s
+,48,Ans-Origin-Host,|Ans-O-Host:%-30s
+1,49,Ans-Origin-Realm,|Ans-O-Realm:%-30s
+,50,Ans-Flag,|Ans-Flag:%-2s
+,51,Ans-Payload,|Ans-Payload:%-4s
+,52,AnsRulesHit,|AnsRulesHit:%-30s
+,53,Ans-RstCode,|Ans-RstCode:%-4s
+,54,Ans-ExpRstCode,|Ans-ExpRstCode:%-4s
+,55,Fw-Ans-Payload,|Fw-Ans-Payload:%-4s
+1,56,Fw-Ans-RstCode,|Fw-Ans-RstCode:%-4s
+1,57,Fw-Ans-ExpRstCode,|Fw-Ans-ExpRstCode:%-4s
+1,58,Fw-Ans-ErrMsg,|Fw-Ans-ErrMsg:%-15s
+,59,Reason,|Reason:%-7s
+,60,Reason-ID,|Reason-Id:%-1s 
